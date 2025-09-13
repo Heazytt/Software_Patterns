@@ -1,5 +1,5 @@
-public class PC {
-    private final String type = "PC";
+public class Laptop {
+    private final String type = "Laptop";
     private String CPU;
     private String GPU;
     private String RAMMemory;
@@ -7,7 +7,7 @@ public class PC {
     private String Disk;
     private String Name;
 
-    public PC(PCBuilder builder) {
+    public Laptop(LaptopBuilder builder) {
         this.CPU = builder.getCPU();
         this.GPU = builder.getGPU();
         this.RAMMemory = builder.getRAMMemory();
@@ -40,6 +40,9 @@ public class PC {
         Name = name;
     }
 
+
+
+
     @Override
     public String toString() {
         return Name + "{" +
@@ -51,3 +54,4 @@ public class PC {
                 '}';
     }
 }
+
