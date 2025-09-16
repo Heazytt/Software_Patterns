@@ -1,3 +1,5 @@
+package Builder_Pattern;
+
 public interface IBuilder {
     IBuilder setRAMMemory(String RAMMemory);
     IBuilder setDisk(String Disk);

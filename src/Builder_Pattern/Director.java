@@ -1,3 +1,5 @@
+package Builder_Pattern;
+
 public class Director {
 
     public static Laptop constructAcerNitro15(){
@@ -6,7 +8,7 @@ public class Director {
                 .setGPU("4050rtx")
                 .setRAMMemory("16gb")
                 .setDisk("512gb")
-                .setName("AcerNitro5")
+
                 .build();
     }
 
