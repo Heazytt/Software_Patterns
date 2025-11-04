@@ -1,6 +1,4 @@
-package ObserverPattern;
-
-import java.util.Observer;
+package ObserverPattern.Subcribers;
 
 public class User implements Subscriber {
     private String name;

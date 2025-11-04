@@ -1,5 +1,8 @@
 package ObserverPattern;
 
+import ObserverPattern.Subcribers.User;
+import ObserverPattern.Subjects.ItemPriceTraker;
+
 public class Main {
     static void main() {
         ItemPriceTraker awpNeoNoir = new ItemPriceTraker(150.0f, "AWP | Neo-Noir(FT)");

@@ -1,4 +1,6 @@
-package ObserverPattern;
+package ObserverPattern.Subjects;
+
+import ObserverPattern.Subcribers.Subscriber;
 
 import java.util.ArrayList;
 import java.util.List;

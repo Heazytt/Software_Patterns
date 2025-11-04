@@ -1,4 +1,6 @@
-package ObserverPattern;
+package ObserverPattern.Subjects;
+
+import ObserverPattern.Subcribers.Subscriber;
 
 public interface Subject {
     void addSubscriber(Subscriber subcriber);
